@@ -1109,7 +1109,7 @@ class crack:
             os.system('clear')
             print (logo4)
             print ('\033[1;33mEnter afg Number Code\033[0;97m')
-            print ('\033[1;33mExample 078,079,077,0345,etc,,,\033[0;97m')
+            print ('\033[1;33mExample +9378,079,077,0345,etc,,,\033[0;97m')
             print (47*'-')
             os.system('rm -rf .num.txt')
             k = input('\033[1;36mEnter Code: \033[0;97m')
@@ -1119,7 +1119,7 @@ class crack:
             except:
                 cb = 5000
             for x in range(cb):
-                nmbr = ''.join(random.choice(string.digits) for _ in range(7))
+                nmbr = ''.join(random.choice(string.digits) for _ in range(5))
                 open('.num.txt', 'a').write(nmbr + '|' + '\n')
             self.id = open('.num.txt', 'r').read().splitlines()
             print (47*'-')
