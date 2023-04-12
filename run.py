@@ -1,33 +1,3 @@
-
-Skip to content
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
-@alizada0077
-wahidwakili /
-Ud
-Public
-
-Fork your own copy of wahidwakili/Ud
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-
-    Insights
-
-Ud/Ud.py /
-@wahidwakili
-wahidwakili Create Ud.py
-Latest commit dbc7f68 Apr 9, 2023
-History
-1 contributor
-1837 lines (1784 sloc) 81.7 KB
 #!/usr/bin/python3
 #-*-coding:utf-8-*-
 #made by coding jutt badshah
@@ -1129,7 +1099,7 @@ class crack:
     def __random__(self):
         os.system('clear')
         print (logo4)
-        print ('\033[1;32m[1] Afghan ids Clone')
+        print ('\033[1;32m[1] AFG ids Clone')
         print ('\033[1;32m[2] indian ids Clone')
         print ('\033[1;32m[3] bangladesh ids clone')
         print ('\033[1;32m[0] Back\033[0;97m')
@@ -1138,8 +1108,8 @@ class crack:
         if tg == '1':
             os.system('clear')
             print (logo4)
-            print ('\033[1;33mEnter Afghanistan number Code\033[0;97m')
-            print ('\033[1;33mExample 0780,0777,0700,0799,etc,,,\033[0;97m')
+            print ('\033[1;33mEnter afg Number Code\033[0;97m')
+            print ('\033[1;33mExample 078,079,077,0345,etc,,,\033[0;97m')
             print (47*'-')
             os.system('rm -rf .num.txt')
             k = input('\033[1;36mEnter Code: \033[0;97m')
@@ -1149,7 +1119,7 @@ class crack:
             except:
                 cb = 5000
             for x in range(cb):
-                nmbr = ''.join(random.choice(string.digits) for _ in range(6))
+                nmbr = ''.join(random.choice(string.digits) for _ in range(7))
                 open('.num.txt', 'a').write(nmbr + '|' + '\n')
             self.id = open('.num.txt', 'r').read().splitlines()
             print (47*'-')
@@ -1864,19 +1834,4 @@ def cutrs():
 if __name__ == '__main__':
     os.system('git pull')
 crack().plerr()
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-
-    Terms
-    Privacy
-    Security
-    Status
-    Docs
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
 
